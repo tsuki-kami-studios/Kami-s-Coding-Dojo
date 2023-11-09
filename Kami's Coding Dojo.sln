@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 1", "Lesson 1\Lesson 1.csproj", "{339D0837-0AD0-4FE5-801E-4897A98B0759}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotspotCreator", "HotspotCreator\HotspotCreator.csproj", "{2E30779E-2DFC-4914-8A73-EA15C97F3127}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{339D0837-0AD0-4FE5-801E-4897A98B0759}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{339D0837-0AD0-4FE5-801E-4897A98B0759}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{339D0837-0AD0-4FE5-801E-4897A98B0759}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E30779E-2DFC-4914-8A73-EA15C97F3127}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E30779E-2DFC-4914-8A73-EA15C97F3127}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E30779E-2DFC-4914-8A73-EA15C97F3127}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E30779E-2DFC-4914-8A73-EA15C97F3127}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
