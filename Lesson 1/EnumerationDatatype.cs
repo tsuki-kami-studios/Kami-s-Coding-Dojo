@@ -13,18 +13,26 @@ namespace Lesson_1
     {
         public static void Datatypes()
         {
-            //SET : A set is a collection of unique items.
+
             //ARRAY : An array is a collection of items of the same type. The size of the array is fixed.
             //LIST : A List is a dynamic array, meaning items can be added and removed.
+
             //COLLECTION : A Collection is a generic list of items that can be accessed by index.
             //DICTIONARY : A Dictionary is a collection of key-value pairs. Each key must be unique.
+
+            //SET : A set is a collection of unique items.
+
             //QUEUE : A Queue is a First-In-First-Out (FIFO) collection.
             //STACK : A Stack is a Last-In-First-Out (LIFO) collection.
+
             //LINKED : A doubly-linked list. Each item points to both the next item and the previous item.
             //SORTED : A collection of key-value pairs that are sorted by the keys and are accessible by key and by index.
+
             //IMMUTABLE : A collection that is immutable after creation.
+
             //CONCURRENT : A collection that is thread-safe.
             //BLOCKING : A collection class which ensures thread safety by making sure that only one thread can access the collection at a time.
+
             //ENUMERATION : A collection that can be enumerated.
             //READONLY : A collection that is read-only.
 
@@ -70,9 +78,13 @@ namespace Lesson_1
             IOrderedQueryable<int> myIOrderedQueryable; // An IOrderedQueryable is a collection that can be queried and ordered.
 
             //Assign Values 
-            myArray = new int[5] { 4, 3, 2, 5, 1  };
+            myArray = new int[6] { 4, 3, 2, 5, 1 , 1 };
+
             myList = new List<int>(myArray);
-            myDictionary = new Dictionary<string, int>() { { "A", 1 }, { "B", 2 }, { "C", 3 }, {"C", 4}, {"D", 5} };
+            myList[2] = 3;
+            myDictionary = new Dictionary<string, int>() { { "C", 1 }, { "B", 2 }, { "A", 3 }, {"D", 5}, {"F" , 3} };
+            myDictionary["E"] = 6;
+
             myCollection = new Collection<int>(myArray);
             myReadOnlyCollection = new ReadOnlyCollection<int>(myArray);
             myQueue = new Queue<int>(myArray);
@@ -96,7 +108,7 @@ namespace Lesson_1
             myImmutableSortedSet = ImmutableSortedSet.Create<int>(myArray);
 
             //Print values
-            Console.WriteLine("myArray                 : " +string.Join(',', myArray));
+            Console.WriteLine("myArray                 : " + string.Join(',', myArray));
             Console.WriteLine("myList                  : " + string.Join(',', myList));
             Console.WriteLine("myDictionary            : " + string.Join(',', myDictionary));
             Console.WriteLine("myCollection            : " + string.Join(',', myCollection));

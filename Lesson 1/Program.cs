@@ -18,6 +18,8 @@ namespace Lesson_1
             Console.WriteLine("Enumerable Datatypes:\n");
             EnumerationDatatype.Datatypes();
 
+            Console.ReadLine();
+
         }
     }
 }

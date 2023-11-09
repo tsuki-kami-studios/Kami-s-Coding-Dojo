@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34221.43
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lesson 1", "Lesson 1\Lesson 1.csproj", "{339D0837-0AD0-4FE5-801E-4897A98B0759}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lesson 1", "Lesson 1\Lesson 1.csproj", "{339D0837-0AD0-4FE5-801E-4897A98B0759}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotspotCreator", "HotspotCreator\HotspotCreator.csproj", "{2E30779E-2DFC-4914-8A73-EA15C97F3127}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotspotCreator", "HotspotCreator\HotspotCreator.csproj", "{2E30779E-2DFC-4914-8A73-EA15C97F3127}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpicWarrior", "EpicWarrior\EpicWarrior.csproj", "{EEBECB61-E86B-4822-9F7D-9DCD49C0CAF9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2E30779E-2DFC-4914-8A73-EA15C97F3127}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2E30779E-2DFC-4914-8A73-EA15C97F3127}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2E30779E-2DFC-4914-8A73-EA15C97F3127}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEBECB61-E86B-4822-9F7D-9DCD49C0CAF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEBECB61-E86B-4822-9F7D-9DCD49C0CAF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEBECB61-E86B-4822-9F7D-9DCD49C0CAF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEBECB61-E86B-4822-9F7D-9DCD49C0CAF9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
